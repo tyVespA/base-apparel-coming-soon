@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -35,12 +36,17 @@
             </div>
             <form action="" method="get" class="email-form">
                <div class="email">
-                  <input id="email" type="email" placeholder="Email Adress">
+                  <input id="email" 
+                  type="text" 
+                  name="email"
+                  placeholder="Email Address">
                   <div class="btn">
-                     <button></button>
+                     <button type="submit"></button>
                   </div>
+                  <div class="error-icon error-display"></div>
                </div>
             </form>
+            <div class="error error-display"><p>Please provide a valid email</p></div>
          </main>
       </div>
       
